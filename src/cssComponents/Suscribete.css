@@ -1,0 +1,45 @@
+.container-suscribete{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(36,40,43,255);
+    display: flex;
+    
+}
+
+.container-suscribete .caja-texto-suscribete{
+    width: 50%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 25px;
+    
+}
+
+.container-suscribete .caja-texto-suscribete h2{
+    font-size: 3.3vw;
+}
+
+.container-suscribete .input-email{
+    width: 45%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-suscribete .input-email .input{
+    width: 35%;
+    height: 30px;
+    margin-right: 3px;
+}
+
+.container-suscribete .input-email .button-input{
+    width: 12%;
+    height: 30px;
+    color: white;
+    background-color: rgba(255, 50, 0, 1);
+    border: 1px solid   rgba(255, 50, 0, 1);
+    font-size: 1vw;
+    
+}
+

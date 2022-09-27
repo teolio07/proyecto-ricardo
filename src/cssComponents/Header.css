@@ -1,9 +1,17 @@
 .Header{
     width: 100%;
     display: flex;
-    padding: 30px;
+    padding: 10px;
     border-bottom: 5px solid rgba(27,145,202,255);
     background-color: rgba(36,40,43,255);
+    
+}
+
+#contenedor-menu{
+    margin-left: 16%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(27,145,202,255);
 }
 
 .Title-header{
@@ -17,21 +25,17 @@
     color:rgba(27,145,202,255);
 }
 
-.Nav{
-    width: 50%;
-    margin-right: 30px;
-    margin-top: 12px;
+#texto-menu{
     color: white;
-}
-
-.Nav ul{
-    list-style:none;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    margin-left: 1%;
+    margin-right: 40px;
+
 }
 
-.Nav ul li{
-    margin-left: 15px;
+#texto-menu .texto-opcion{
+    color: white;
+    
+    
 }

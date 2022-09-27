@@ -5,9 +5,9 @@
 }
 
 .App{
-  max-width: 1200px; 
+  max-width: 1300px;
+   
   display: flex;
   flex-wrap: wrap;
-  
-
+  background-color: rgba(36,40,43,255);
 }
